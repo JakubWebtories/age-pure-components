@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #85a8c5;
+}
+
+.slider {
+  overflow: hidden;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inner {
+  white-space: nowrap;
+  /* transition: transform 300ms; */
+}
+
+.slider-item {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  background-color: bisque;
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.slider-buttons {
+  display: block;
+  height: 60px;
+  width: 100%;
+}
+
+.title {
+  font-size: 200px;
+}
+
+/* .tab-toggle p {
+  height: fit-content;
+} */
+
+.tab-active {
+  background-color: aqua;
+  /* transition: 500ms; */
+}
+
+.hidden-content p {
+  display: none;
+
+  transition: 500ms;
+}
